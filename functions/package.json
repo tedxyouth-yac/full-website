@@ -1,0 +1,14 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "dependencies": {
+    "@sendgrid/mail": "^6.1.4",
+    "firebase-admin": "~5.4.0",
+    "firebase-functions": "^0.7.0",
+    "imgur-uploader": "^4.2.1",
+    "qr-image": "^3.2.0",
+    "randomstring": "^1.1.5",
+    "stripe": "^5.4.0"
+  },
+  "private": true
+}

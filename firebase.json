@@ -1,0 +1,21 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+
+    "rewrites": [
+        {"source": "/ticket", "function": "ticket"},
+        {"source": "/checkPromoCode", "function": "checkPromoCode"},
+        {"source":"/buy", "destination": "/buy.html"}
+    ]
+
+  }
+}
